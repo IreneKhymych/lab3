@@ -24,3 +24,10 @@ number1 = 789
 number2 = 456
 result = column_addition(number1, number2)
 print(result)
+
+#for_pull_request
+a = 5
+b = 6
+c = 7
+area = heron_formula(a, b, c)
+print("Площа:", area)
