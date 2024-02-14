@@ -18,3 +18,9 @@ if result:
     print(f"Послідовність '{input_str}' є паліндромом.")
 else:
     print(f"Послідовність '{input_str}' не є паліндромом.")
+
+
+number1 = 789
+number2 = 456
+result = column_addition(number1, number2)
+print(result)
