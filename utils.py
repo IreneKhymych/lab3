@@ -41,3 +41,9 @@ def column_addition(num1, num2, perenis=0):
     remaining_sum = column_addition(num1 // 10, num2 // 10, new_perenis)
 
     return str(remaining_sum) + str(result_digit)
+
+#for pull-request:
+def heron_formula(a, b, c):
+    p = (a + b + c) / 2
+    area = (p * (p - a) * (p - b) * (p - c)) ** 0.5
+    return area
