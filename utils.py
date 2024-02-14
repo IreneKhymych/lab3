@@ -22,4 +22,7 @@ def is_prime(number):
         return True
 
 
-
+def is_palindrome(s):
+    cleaned_str = ''.join(char.lower() for char in s if char.isalnum())
+    if cleaned_str == cleaned_str[::-1]:
+        return True
